@@ -1,0 +1,24 @@
+.dropbtn {
+  background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png"
+    )
+    no-repeat left center;
+  padding-left: 25px;
+  width: 50px;
+}
+.dropdown-content > a:first-child {
+  background: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png")
+    no-repeat;
+  background-position: 4px center;
+}
+.dropdown-content > a:last-child {
+  background: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png")
+    no-repeat;
+  background-position: 4px center;
+}
+.hero .btn {
+    padding: 20.5px 70px;
+}
+
+.soc .title {
+    width: 120px;
+}

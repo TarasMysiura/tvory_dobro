@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../../fonts/Roboto-Light/Roboto-Light.ttf") format("truetype");
+  src: url("../../fonts/Roboto-Light/Roboto-Light.eot") format("eot");
+  src: url("../../fonts/Roboto-Light/Roboto-Light.woff") format("woff");
+  src: url("../../fonts/Roboto-Light/Roboto-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/Roboto-Regular/Roboto-Regular.ttf") format("truetype");
+  src: url("../../fonts/Roboto-Regular/Roboto-Regular.eot") format("eot");
+  src: url("../../fonts/Roboto-Regular/Roboto-Regular.woff") format("woff");
+  src: url("../../fonts/Roboto-Regular/Roboto-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../../fonts/Roboto-Medium/Roboto-Medium.ttf") format("truetype");
+  src: url("../../fonts/Roboto-Medium/Roboto-Medium.eot") format("eot");
+  src: url("../../fonts/Roboto-Medium/Roboto-Medium.woff") format("woff");
+  src: url("../../fonts/Roboto-Medium/Roboto-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sofia Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../../fonts/SofiaSans-Medium/SofiaSans-Medium.otf")
+    format("otf");
+  src: url("../../fonts/SofiaSans-Medium/SofiaSans-Medium.ttf")
+    format("truetype");
+  /* src: url("../ular.woff")
+    format("woff");
+  src: url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff2")
+    format("woff2"); */
+}
+@font-face {
+  font-family: "Sofia Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../../fonts/SofiaSand-SemiBold/SofiaSans-SemiBold.otf")
+    format("otf");
+  src: url("../../fonts/SofiaSand-SemiBold/SofiaSans-SemiBold.ttf")
+    format("truetype");
+  /* src: url("../ular.woff")
+    format("woff");
+  src: url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff2")
+    format("woff2"); */
+}
+
