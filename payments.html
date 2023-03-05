@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <link rel="stylesheet" href="./css/styles-header.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/personal-information.css" />
+    <link rel="stylesheet" href="./css/styles-footer.css" />
+    <!-- <link rel="stylesheet" href="./css/styles-main-page.css" /> -->
+    <title>main page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="part-left">
+                <button class="btn-menu" type="menu">
+                    <svg class="icon" width="50" height="50">
+                        <use href="./img/icons.svg#icon-burger-menu"></use>
+                    </svg>
+                </button>
+                <a class="logo" href="./index.html">
+                    <svg class="icon" width="78" height="78">
+                        <use href="./img/icons.svg#icon-logo"></use>
+                    </svg>
+                    <p class="logo-text">Tvory dobro</p>
+                </a>
+            </div>
+            <div class="part-right">
+                <nav class="navigation">
+                    <ul class="nav-list list">
+                        <li class="nav-item item">
+                            <a class="nav-link link" href="#">Про фонд</a>
+                        </li>
+                        <li class="nav-item item">
+                            <a class="nav-link link" href="#">
+                                <svg class="icon-account" width="28" height="28">
+                                    <use href="./img/icons.svg#icon-account"></use>
+                                </svg>
+                                <p>Увійти</p>
+                            </a>
+                        </li>
+                        <li class="nav-item item">
+                            <div class="dropdown">
+                                <div class="dropbtn">UA</div>
+                                <div class="dropdown-content">
+                                    <!-- <a href="./index.html">EN</a> -->
+                                    <a href="index-en.html">EN</a>
+                                    <a href="#">RU</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn" type="button">Допомогти</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pages">
+            <div class="container">
+                <ul class="page-list list">
+                    <li class="page-item item">
+                        <a class="page-link link" href="index.html">Головна</a>
+                    </li>
+                    <li class="page-item item">
+                        <a class="page-link link" href="">/</a>
+                    </li>
+                    <li class="page-item item">
+                        <a class="page-link link" href="personal-information.html">Особиста інформація</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="account">
+            <div class="container">
+                <div class="card">
+                    <div class="card-wrap">
+                        <img class="account-foto" src="./img/account-foto.jpg" alt="account-foto" width="180"
+                            height="180">
+                        <button type="button" class="btn-edit-account-foto">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-pencil-line"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <h2 class="card-name">анастасія коваленко</h2>
+                </div>
+                <div class="card-information">
+                    <div class="account-nav">
+                        <ul class="account-nav-list list">
+                            <li class="account-nav-item item">
+                                <a class="account-nav-link link current" href="personal-information.html">
+                                    особиста інформація
+                                </a>
+                            </li>
+                            <li class="account-nav-item item">
+                                <a class="account-nav-link link" href="payments.html">
+                                    платежі
+                                </a>
+                            </li>
+                            <li class="account-nav-item item">
+                                <a class="account-nav-link link" href="">
+                                    підписка
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="edit">
+                        <a class="edit-text" href="">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-pencil-line"></use>
+                            </svg>
+                            Редагувати дані
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="info-wrap1">
+                            <div class="name-wrap1">
+                                <h2 class="name">ім’я</h2>
+                                <h2 class="name">прізвище</h2>
+                            </div>
+                            <div class="name-wrap2">
+                                <p class="text">Анастасія</p>
+                                <p class="text">Коваленко</p>
+                            </div>
+                        </div>
+                        <div class="info-wrap2">
+                            <div class="name-wrap3">
+                                <h2 class="name">дата народження</h2>
+                                <h2 class="name">електронна пошта</h2>
+                            </div>
+                            <div class="name-wrap4">
+                                <p class="text">14.11.1988</p>
+                                <p class="text">info@info.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <a class="logo link" href="./index.html">
+                    <svg class="icon" width="78" height="78">
+                        <use href="./img/icons.svg#icon-logo"></use>
+                    </svg>
+                    <p class="logo-text">Tvory dobro</p>
+                </a>
+                <div class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item">
+                            <a href="#" class="link">проекти</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="link">звіти</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="link">команда</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="link">контакти</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#" class="link">для ЗМІ</a>
+                        </li>
+                    </ul>
+                    <div class="contacts">
+                        <div class="email">
+                            <h2 class="title">Email</h2>
+                            <a href="email:info@info.com" class="link">info@info.com</a>
+                        </div>
+                        <div class="soc">
+                            <h2 class="title">соцмережі</h2>
+                            <ul class="soc-list">
+                                <a href="#" class="link">
+                                    <svg class="icon" width="28" height="28">
+                                        <use href="./img/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" class="link">
+                                    <svg class="icon" width="28" height="28">
+                                        <use href="./img/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="press">
+                <a href="" class="text link">Угода користувача</a>
+                <a href="" class="text link">Політика конфіденційності</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
