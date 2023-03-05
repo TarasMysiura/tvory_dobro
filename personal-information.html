@@ -9,6 +9,7 @@
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
     <link rel="stylesheet" href="./css/styles-header.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/personal-information.css" />
     <!-- <link rel="stylesheet" href="./css/styles-main-page.css" /> -->
     <title>main page</title>
 </head>
@@ -36,7 +37,7 @@
                             <a class="nav-link link" href="#">Про фонд</a>
                         </li>
                         <li class="nav-item item">
-                            <a class="nav-link link" href="./personal-information.html">
+                            <a class="nav-link link" href="#">
                                 <svg class="icon-account" width="28" height="28">
                                     <use href="./img/icons.svg#icon-account"></use>
                                 </svg>
@@ -60,79 +61,87 @@
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section class="pages">
             <div class="container">
-                <h1 class="title">
-                    Подивіться, чим можуть допомогти <br> ваші пожертвування
-                </h1>
-                <div class="slidecontainer">
-                    <!-- <p>Default range slider:</p> -->
-                    <input class="slider" type="range" step="5" min="0" max="200" list="rangeList"
-                        onchange="document.getElementById('rangeValue').innerHTML = this.value;">
-                    <datalist id="rangeList">
-                        <!-- <option value="5" label="10Є">
-                        <option value="10" label="25Є">
-                        <option value="25" label="50Є">
-                        <option value="50" label="100">
-                        <option value="100" label="150">
-                        <option value="150" label="200"> -->
-
-                    </datalist>
-                    <!-- <span id="rangeValue">5</span> -->
-                    <!-- <input  type="range" min="1" max="200" value="50"> -->
-
-                    <!-- <p>Custom range slider:</p> -->
-                    <!-- <input type="range" min="1" max="100" value="50"  id="myRange"> -->
-                    <ul class="number-label">
-                        <li class="number-label-item">5&#x20b4</li>
-                        <li class="number-label-item">10&#x20b4</li>
-                        <li class="number-label-item">25&#x20b4</li>
-                        <li class="number-label-item">50&#x20b4</li>
-                        <li class="number-label-item">100&#x20b4</li>
-                        <li class="number-label-item">150&#x20b4</li>
-                        <li class="number-label-item">200&#x20b4</li>
-                    </ul>
-                </div>
-
-                <div class="hero-wrap">
-                    <img class="hero-img" src="./img/image-hero.jpg" alt="дівчинка з іграшкою" width="612" height="388">
-                    <div class="hero-wrap-wrap">
-                        <h2 class="title">50€ це іграшка <br> для маленької дівчинки</h2>
-                        <button class="btn" type="button">Допомогти</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="gallery">
-            <div class="container">
-                <ul class="gallery-list">
-                    <li class="gallery-item">
-                        <img src="./img/gallery-img-1.jpg" alt="" class="gallery-img">
-                        <div class="card-text">
-                            <h2 class="gallery-title">гуманітарна допомога</h2>
-                            <p class="gallery-text">Вже більше 100 українських сімей отримали допомогу від нашого фонду
-                                у вигляді продуктів, ліків та засобів гігієни</p>
-                        </div>
+                <ul class="page-list list">
+                    <li class="page-item item">
+                        <a class="page-link link" href="index.html">Головна</a>
                     </li>
-                    <li class="gallery-item">
-                        <img src="./img/gallery-img-2.jpg" alt="" class="gallery-img">
-                        <div class="card-text">
-                            <h2 class="gallery-title">реабілітація дітей
-                                в болгарії</h2>
-                            <p class="gallery-text">Запрошуємо дітей, постраждалих від війни до оздоровчого табору на
-                                природі в безпечному місці</p>
-                        </div>
-
+                    <li class="page-item item">
+                        <a class="page-link link" href="">/</a>
                     </li>
-                    <li class="gallery-item">
-                        <img src="./img/gallery-img-3.jpg" alt="" class="gallery-img">
-                        <div class="card-text">
-                            <h2 class="gallery-title">допомога на лікування</h2>
-                            <p class="gallery-text">В цьому місяці нам вдалось зібрати більше 10 000 на лікування
-                                онкохворих дітей та дітей з інвалідністю</p>
-                        </div>
+                    <li class="page-item item">
+                        <a class="page-link link" href="personal-information.html">Особиста інформація</a>
                     </li>
                 </ul>
+            </div>
+        </section>
+        <section class="account">
+            <div class="container">
+                <div class="card">
+                    <div class="card-wrap">
+                        <img class="account-foto" src="./img/account-foto.jpg" alt="account-foto" width="180"
+                            height="180">
+                        <button type="button" class="btn-edit-account-foto">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-pencil-line"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <h2 class="card-name">анастасія коваленко</h2>
+                </div>
+                <div class="card-information">
+                    <div class="account-nav">
+                        <ul class="account-nav-list list">
+                            <li class="account-nav-item item">
+                                <a class="account-nav-link link current" href="personal-information.html">
+                                    особиста інформація
+                                </a>
+                            </li>
+                            <li class="account-nav-item item">
+                                <a class="account-nav-link link" href="payments.html">
+                                    платежі
+                                </a>
+                            </li>
+                            <li class="account-nav-item item">
+                                <a class="account-nav-link link" href="">
+                                    підписка
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="edit">
+                        <a class="edit-text" href="">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-pencil-line"></use>
+                            </svg>
+                            Редагувати дані
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="info-wrap1">
+                            <div class="name-wrap1">
+                                <h2 class="name">ім’я</h2>
+                                <h2 class="name">прізвище</h2>
+                            </div>
+                            <div class="name-wrap2">
+                                <p class="text">Анастасія</p>
+                                <p class="text">Коваленко</p>
+                            </div>
+                        </div>
+                        <div class="info-wrap2">
+                            <div class="name-wrap3">
+                                <h2 class="name">дата народження</h2>
+                                <h2 class="name">електронна пошта</h2>
+                            </div>
+                            <div class="name-wrap4">
+                                <p class="text">14.11.1988</p>
+                                <p class="text">info@info.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
