@@ -89,12 +89,16 @@
 .account-nav-link {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #313131;
+}
+.current{
+  font-weight: 500;
   color: #334459;
 }
 .current::after {
