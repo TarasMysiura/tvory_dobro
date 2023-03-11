@@ -1,0 +1,207 @@
+.pages {
+  background-color: #f9f3ee;
+  padding-bottom: 60px;
+}
+.container {
+}
+.page-list {
+  display: flex;
+}
+.page-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.page-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #313131;
+}
+/* ================ACCOUNT================ */
+.account {
+  background-color: #f9f3ee;
+  padding-bottom: 100px;
+}
+.account .container {
+  display: flex;
+  gap: 126px;
+}
+.card {
+  background-color: transparent;
+  width: 180px;
+  height: 266px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.account-foto {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+.btn-edit-account-foto {
+  position: absolute;
+  top: 148px;
+  right: 28px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+
+  background-color: #334459;
+}
+.btn-edit-account-foto .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  fill: #fdfdfd;
+}
+.card-name {
+  font-family: "Sofia Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #313131;
+}
+.account-nav {
+  margin-bottom: 22px;
+}
+.account-nav-list {
+  display: flex;
+  gap: 50px;
+}
+.account-nav-item {
+  position: relative;
+}
+.account-nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #313131;
+}
+.current {
+  font-weight: 500;
+  color: #334459;
+}
+.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #334459;
+  border-radius: 1px;
+}
+.payments {
+}
+.payments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.payment-item {
+  padding: 40px;
+  width: 890px;
+
+  background-color: #fdfdfd;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #313131;
+}
+.payment-wrap {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.payment-wrap .titte {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #313131;
+}
+.post-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #313131;
+  width: 175px;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.date {
+    width: 128px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #313131;
+}
+.time {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #313131;
+}
+.type {
+     display: flex;
+    flex-direction: column;
+    gap: 6px;
+  width: 86px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #313131;
+}
+.money {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #313131;
+}
